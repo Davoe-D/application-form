@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="regform"><h1>Registration Form</h1></div>
+    <div class="main">
+        <form >
+            <br>
+            <div id="name">
+                <h2 class="name">Int'l Passport No</h2>
+                <input class="firstname" type="text" name="first_name"><br>
+
+                <!-- <label class="firstlabel">first name</label>
+                
+                <input class="lastname" type="text" name="last_name">
+                <label class="lastlabel">last name</label> -->
+            </div>
+            
+            <h2 class="name">UPLOAD IMAGE</h2>
+            <input type="file" id="real-file" hidden="hidden" />
+            <button class="choose" type="button" id="custom-button">CHOOSE A FILE</button>
+            <span class="choose1" id="custom-text">No file chosen, yet.</span>
+
+            <h2 class="name">Applicant Country</h2>
+            <select class="option" name="Subject">
+            <option disabled="disabled" selected="selected">--Select Country</option>
+            <option>Subject 1 </option>
+            <option>Subject 2 </option>
+            <option>Subject 3 </option>
+
+            </select>
+            <h2 class="name">Nigeria Embassy</h2>
+            <select class="option" name="Subject">
+            <option disabled="disabled" selected="selected">--Select Option</option>
+            <option>Subject 1 </option>
+            <option>Subject 2 </option>
+            <option>Subject 3 </option>
+
+            </select>
+            <h2 class="name">Nationality</h2>
+            <select class="option" name="Subject">
+            <option disabled="disabled" selected="selected">--Select Country</option>
+            <option>Subject 1 </option>
+            <option>Subject 2 </option>
+            <option>Subject 3 </option>
+
+            </select>
+
+            <form>
+        
+                <h2 class="name">Date of Birth</h2>
+                <select class="DOB" name="month">
+                    <option value="month">Month</option>
+                    <option value="january">January</option>
+                    <option value="february">February</option>
+                </select>
+        
+                <select name="days">
+                    <option value="days">Days</option>
+                    <option value="1">1</option>
+                    <option value="2">3</option>
+                </select>
+        
+                <select name="Year">
+                    <option value="year">Year</option>
+                    <option value="1985">1985</option>
+                    <option value="1988">1988</option>
+                    <option value="1990">1990</option>
+                </select> <br><br>
+            </form>
+
+            <h2 class="name"> Company</h2>
+            <input class="company" type="text" name="company">
+
+            <h2 class="name"> Email</h2>
+            <input class="email" type="text" name="email">
+            
+            <h2 class="name"> Phone</h2>
+            <input class="code" type="text" name="area_code">
+            <label class="area-code">Area Code</label>
+            <input class="number" type="text" name="phone">
+            <label class="phone-number">Phone Number</label>
+
+            <h2 class="name">Visa Type</h2>
+            <select class="option" name="Subject">
+            <option disabled="disabled" selected="selected">--Select VISA</option>
+            <option>Subject 1 </option>
+            <option>Subject 2 </option>
+            <option>Subject 3 </option>
+
+            </select>
+
+            <h2 id="student">Are you a Beginner?</h2>
+
+            <label class="radio">
+                <input class="radio-one" type="radio" checked="checked" name="">
+                <span class="checkmark"></span>
+                Yes
+            </label>
+
+            <label class="radio">
+                <input class="radio-two" type="radio" name="">
+                <span class="checkmark"></span>
+                No
+            </label>
+
+            <button type="submit">Register</button>
+
+
+        </form>
+    </div>
+</body>
+</html>
